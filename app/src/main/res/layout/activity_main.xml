@@ -16,7 +16,7 @@
             android:id="@+id/Temperatura"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="Temperatura"
+            android:text="@string/titulo1"
             android:textSize="20dp" />
 
         <LinearLayout
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="uno"
-                android:text="Celsius a Fahrenheit"
+                android:text="@string/bt1"
                 android:textAllCaps="false" />
 
             <Button
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="dos"
-                android:text="Fahrenheit a Celsius"
+                android:text="@string/bt2"
                 android:textAllCaps="false" />
         </LinearLayout>
 
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="tres"
-                android:text="Celsius a Kelvin"
+                android:text="@string/bt3"
                 android:textAllCaps="false" />
 
             <Button
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="cuatro"
-                android:text="Kelvin a Celsius"
+                android:text="@string/bt4"
                 android:textAllCaps="false" />
         </LinearLayout>
 
@@ -73,7 +73,7 @@
             android:id="@+id/Area"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="Area"
+            android:text="AREA"
             android:textSize="20dp" />
 
         <LinearLayout
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="cinco"
-                android:text="Hectarea a Metro²"
+                android:text="@string/bt5"
                 android:textAllCaps="false" />
 
             <Button
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="seis"
-                android:text="Metro² a Hectarea"
+                android:text="@string/bt6"
                 android:textAllCaps="false" />
 
         </LinearLayout>
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="siete"
-                android:text="Metro² a kilometro²"
+                android:text="@string/bt7"
                 android:textAllCaps="false" />
 
             <Button
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="ocho"
-                android:text="Kilometro² a Metro²"
+                android:text="@string/bt8"
                 android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>

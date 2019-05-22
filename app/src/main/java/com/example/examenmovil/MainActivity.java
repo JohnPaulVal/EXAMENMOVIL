@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
         CambioPantalla();
     }
     public void CambioPantalla(){
-        Intent Ventana=new Intent(getApplicationContext(),Conversion.class);
-        Ventana.putExtra("tp",tp);
-        Ventana.putExtra("c",c);
-        startActivity(Ventana);
+        Intent Pantalla=new Intent(getApplicationContext(),Conversion.class);
+        Pantalla.putExtra("tp",tp);
+        Pantalla.putExtra("c",c);
+        startActivity(Pantalla);
     }
 
 

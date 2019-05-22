@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">EXAMENMOVIL</string>
+    <string name="titulo1">TEMPERATURA</string>
+    <string name="bt1">Celsius a Fahrenheit</string>
+    <string name="bt2">Fahrenheit a Celsius</string>
+    <string name="bt3">Celsius a Kelvin</string>
+    <string name="bt4">Kelvin a Celsius</string>
+    <string name="bt5">Hectarea a Metro²</string>
+    <string name="bt6">Metro² a Hectarea</string>
+    <string name="bt7">Metro² a kilometro²</string>
+    <string name="bt8">Kilometro² a Metro²</string>
+
+
+    <!--CONVERSION-->
+    <string name="conTitu">Unidad:</string>
+    <string name="conNum">Ingrese Su Numero</string>
+    <string name="conBt">Calcular</string>
+    <string name="conRes">Resultado</string>
+
 </resources>

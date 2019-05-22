@@ -16,7 +16,7 @@
             android:id="@+id/Unidad"
             android:layout_width="match_parent"
             android:layout_height="37dp"
-            android:text="Unidad:"
+            android:text="@string/conTitu"
             android:textSize="25dp" />
 
         <EditText
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese un numero"
+            android:hint="@string/conNum"
             android:inputType="number"
             android:textSize="25dp" />
 
@@ -33,14 +33,14 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:onClick="Calcular"
-            android:text="Calcular"
+            android:text="@string/conBt"
             android:textSize="20dp" />
 
         <TextView
             android:id="@+id/Resultado"
             android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:text="Resultado:"
+            android:text="@string/conRes"
             android:textSize="25dp" />
 
         <TextView

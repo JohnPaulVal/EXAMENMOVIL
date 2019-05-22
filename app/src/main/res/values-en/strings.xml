@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MOBILE EXAM</string>
+    <string name="titulo1">TEMPERATURE</string>
+    <string name="bt1">Celsius to Fahrenheit</string>
+    <string name="bt2">Fahrenheit to Celsius</string>
+    <string name="bt3">Celsius to Kelvin</string>
+    <string name="bt4">Kelvin to Celsius</string>
+    <string name="bt5">Hectare to Meter²</string>
+    <string name="bt6">Meter² to Hectare</string>
+    <string name="bt7">Meter² to Kilometer²</string>
+    <string name="bt8">Kilometer² to Meter²</string>
+
+    <!--CONVERSION-->
+    <string name="conTitu">Unit:</string>
+    <string name="conNum">Enter you number</string>
+    <string name="conBt">Calculate</string>
+    <string name="conRes">Result</string>
+</resources>
