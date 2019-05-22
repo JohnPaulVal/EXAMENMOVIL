@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Main">
+
+        <TextView
+            android:id="@+id/lbl_Temperatura2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Temperatura"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/lyh_Temperatura1"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_C_F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="C_F"
+                android:text="C° a F°"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_F_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="F_C"
+                android:text="F° a C°"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyh_Temperatura2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_C_K"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="C_K"
+                android:text="C° a K°"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_K_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="K_C"
+                android:text="K° a C°"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_Distancia"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Distancia"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/lyh_Distancia1"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_M_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="M_C"
+                android:text="'m' a 'cm'"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_C_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="C_M"
+                android:text="'cm' a 'm'"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyh_Distancia2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_C_INCH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="C_P"
+                android:text="'c' a 'inch'"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_INCH_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="P_C"
+                android:text="'inch' a 'c'"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
