@@ -13,117 +13,117 @@
         tools:context=".Main">
 
         <TextView
-            android:id="@+id/lbl_Temperatura2"
+            android:id="@+id/Temperatura"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:text="Temperatura"
             android:textSize="20dp" />
 
         <LinearLayout
-            android:id="@+id/lyh_Temperatura1"
+            android:id="@+id/lnl1"
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_C_F"
+                android:id="@+id/bt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="C_F"
-                android:text="C° a F°"
+                android:onClick="uno"
+                android:text="Celsius a Fahrenheit"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_F_C"
+                android:id="@+id/bt2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="F_C"
-                android:text="F° a C°"
+                android:onClick="dos"
+                android:text="Fahrenheit a Celsius"
                 android:textAllCaps="false" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/lyh_Temperatura2"
+            android:id="@+id/lnl2"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_C_K"
+                android:id="@+id/bt3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="C_K"
-                android:text="C° a K°"
+                android:onClick="tres"
+                android:text="Celsius a Kelvin"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_K_C"
+                android:id="@+id/bt4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="K_C"
-                android:text="K° a C°"
+                android:onClick="cuatro"
+                android:text="Kelvin a Celsius"
                 android:textAllCaps="false" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/lbl_Distancia"
+            android:id="@+id/Area"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="Distancia"
+            android:text="Area"
             android:textSize="20dp" />
 
         <LinearLayout
-            android:id="@+id/lyh_Distancia1"
+            android:id="@+id/lnl3"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_M_C"
+                android:id="@+id/btn5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="M_C"
-                android:text="'m' a 'cm'"
+                android:onClick="cinco"
+                android:text="Hectarea a Metro²"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_C_M"
+                android:id="@+id/bt6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="C_M"
-                android:text="'cm' a 'm'"
+                android:onClick="seis"
+                android:text="Metro² a Hectarea"
                 android:textAllCaps="false" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/lyh_Distancia2"
+            android:id="@+id/lnl4"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_C_INCH"
+                android:id="@+id/btn7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="C_P"
-                android:text="'c' a 'inch'"
+                android:onClick="siete"
+                android:text="Metro² a kilometro²"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/btn_INCH_C"
+                android:id="@+id/btn8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="P_C"
-                android:text="'inch' a 'c'"
+                android:onClick="ocho"
+                android:text="Kilometro² a Metro²"
                 android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>
