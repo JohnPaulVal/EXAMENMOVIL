@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Conversion">
+    tools:context=".Conversion"
+    android:background="#0b1b24">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +18,9 @@
             android:layout_width="match_parent"
             android:layout_height="37dp"
             android:text="@string/conTitu"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#a3dce8"/>
 
         <EditText
             android:id="@+id/tx1"
@@ -26,6 +29,7 @@
             android:ems="10"
             android:hint="@string/conNum"
             android:inputType="number"
+            android:textColor="#a3dce8"
             android:textSize="25dp" />
 
         <Button
@@ -34,13 +38,17 @@
             android:layout_height="60dp"
             android:onClick="Calcular"
             android:text="@string/conBt"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:background="#24647a"
+            android:textColor="#a3dce8"/>
 
         <TextView
             android:id="@+id/Resultado"
             android:layout_width="match_parent"
             android:layout_height="46dp"
             android:text="@string/conRes"
+            android:textColor="#a3dce8"
+            android:textAlignment="center"
             android:textSize="25dp" />
 
         <TextView
@@ -49,6 +57,8 @@
             android:layout_height="wrap_content"
             android:text="0"
             android:textAlignment="center"
+
+            android:textColor="#a3dce8"
             android:textSize="25dp" />
 
         <EditText
@@ -57,6 +67,8 @@
             android:layout_height="281dp"
             android:ems="10"
             android:gravity="start|top"
+            android:textColor="#a3dce8"
+            android:textAlignment="center"
             android:inputType="textMultiLine" />
 
     </LinearLayout>

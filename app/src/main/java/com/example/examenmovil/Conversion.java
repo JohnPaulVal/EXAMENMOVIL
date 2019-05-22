@@ -74,7 +74,7 @@ public class Conversion extends AppCompatActivity {
         }
         SharedPreferences preferencias=getSharedPreferences("datos",Context.MODE_PRIVATE);
         SharedPreferences.Editor editor=preferencias.edit();
-        editor.putString("conversion", o.getText().toString());
+        editor.putString("conversion","Numero Anterior : "+o.getText().toString());
         editor.commit();
 
 
